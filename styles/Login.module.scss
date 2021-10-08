@@ -1,0 +1,46 @@
+.appContainer {
+  max-width: 500px;
+  width: 100%;
+  margin: 4em auto 0;
+  border: 1px solid #ddd;
+  padding: 2em;
+  border-radius: 8px;
+}
+
+.formContainer {
+  background-color: #f0f0f0ed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formField {
+  margin-bottom: 2em;
+}
+
+.formField > input {
+  width: 300px;
+  padding: 1em;
+}
+
+.submit {
+  background-color: palegreen;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.2em;
+  font-weight: 100;
+  padding: 0.5em 0.6em;
+  box-shadow: 1px 1px 2px #cbbaba;
+  width: 100px;
+}
+
+.submit:focus {
+  box-shadow: inset 1px 1px 2px #cbbaba;
+}
